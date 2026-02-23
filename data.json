@@ -1,0 +1,29 @@
+{
+    "characters": [
+        {
+            "name": "Патрик",
+            "image": "assets/patrick.jpg"
+        },
+        {
+            "name": "Спанч Боб",
+            "image": "assets/spanch_bob.jpg"
+        },
+        {
+            "name": "Сквидвард",
+            "image": "assets/squidward.jpg"
+        },
+        {
+            "name": "Сэнди Чикс",
+            "image": "assets/sandy_cheeks.jpg"
+        },
+        {
+            "name": "Планктон",
+            "image": "assets/planckton.jpg"
+        },
+        {
+            "name": "Мистер Крабс",
+            "image": "assets/mr_crabs.jpg"
+        }
+    ],
+    "selected": {}
+}
