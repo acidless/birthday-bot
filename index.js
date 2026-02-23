@@ -22,6 +22,12 @@ bot.onText(/\/start/, (msg) => {
 
 bot.on('callback_query', (query) => {
     if (query.data === 'random_character') {
+        if(Object.keys(data.selected).length === data.characters.length) {
+            return bot.sendMessage(query.message.chat.id, messages['all-selected'], {
+                parse_mode: 'HTML',
+            });
+        }
+
         if(Object.values(data.selected).includes(query.from.username)) {
             return bot.sendMessage(query.message.chat.id, messages['already-selected'], {
                 parse_mode: 'HTML',
